@@ -1,0 +1,3 @@
+langchain_anthropic==0.3.17
+langgraph==0.5.1
+python-dotenv==1.1.1
