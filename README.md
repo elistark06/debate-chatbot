@@ -4,7 +4,7 @@
 
 ## GETTING STARTED
 
-> This app requires an anthropic API key,
+> this app requires an anthropic API key,
 > 
 > you can get your anthropic api key here: https://console.anthropic.com
 
@@ -20,9 +20,15 @@ https://docs.anthropic.com/en/api/overview#accessing-the-api
 
 #### initialize a virtual machine:
 
->in your terminal while in the project directory input:
+> in your terminal while in the project directory input:
 >
->`py -m venv .venv`
+> `py -m venv .venv`
+>
+> this adds a new directory for your vm
+> 
+> now activate it by inputting:
+>
+> `./.venv/scripts/activate`
 
 #### install requirements.txt:
 
@@ -32,7 +38,7 @@ https://docs.anthropic.com/en/api/overview#accessing-the-api
 
 #### add .env file and api key:
 
-> in the /debate-chatbot directory add a file named .env
+> in the project directory add a file named .env
 > 
 > in this file add a new environment variable like this
 >
@@ -41,6 +47,6 @@ https://docs.anthropic.com/en/api/overview#accessing-the-api
 > this is adding an environment variable that lets you address the anthropic api using your key
 
 #### FINALLY:
-> Run the program using a python debugger,
+> run the program using a python debugger,
 > 
 > in the console a response from the llm should be printed
