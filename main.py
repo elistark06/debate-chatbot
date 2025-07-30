@@ -19,12 +19,12 @@ model = ChatAnthropic(
 agent = create_react_agent(
     model=model,
     tools=[],
-    prompt=json.dumps(persona_one)
+    prompt=json.dumps(persona_two)
 )
 
 def main():
     response = agent.invoke(
-        {"messages": [{"role": "user", "content": "tell me a dark joke"}]},
+        {"messages": [{"role": "user", "content": "tell me a joke"}]},
     )
     print(response["messages"][-1].content)
 
