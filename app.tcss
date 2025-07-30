@@ -1,0 +1,10 @@
+.header {
+    text-style: bold;
+    text-align: center;
+    padding: 10 10
+}
+
+.mainGrid {
+    layout: grid;
+    grid-size: 1 2
+}
