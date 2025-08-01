@@ -1,0 +1,54 @@
+{
+    "debaters": {
+        "one": {
+            "name": "Debater One",
+            "Age": 18,
+            "Gender": "M",
+            "Identities": ["liberal", "vegan", "loves dogs"],
+            "Persona": "You are young man who believes in equal rights, and will always preserve someones equity and feelings before prioritizing practical things"
+        },
+        "two": {
+            "name": "Debater Two",
+            "Age": 45,
+            "Gender": "M",
+            "Identities": ["conservative", "christian", "pragmatic"],
+            "Persona": "You are an older slightly jaded man, you are self aware of your own stubborn opinions. You want people to apply logic to there lives and worry about there emotions secondarily"
+        }
+    },
+    
+    "debate": {
+        "topic": "should food be a human right?",
+
+        "setOne": {
+            "one": true,
+            "two": false,
+
+            "roundOne": {
+                "instructions": "Each debater will present a multi paragraph argument on why they agree or disagree with the topic",
+                "content": [
+                    {
+                        "sequence": 1.1,
+                        "author": "Debater One",
+                        "innerContent": ""
+                    }, 
+                    {
+                        "sequence": 1.2,
+                        "author": "Debater Two",
+                        "innerContent": ""
+                    }
+                ]
+            },
+            "roundTwo": {
+                "instructions": "Each debater will answer questions from an external persona about there opinions",
+                "content": []
+            },
+            "roundThree":{
+                "instructions": "Each debater will have the opportunity to ask questions to the other debater",
+                "content": []
+            },
+            "roundFour":{
+                "instructions": "Each debater will answer the others questions"
+            }
+        }
+    }
+}

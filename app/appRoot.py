@@ -1,14 +1,24 @@
 from textual.app import App, ComposeResult
-from textual.widgets import Footer, Header
+from textual.widgets import Footer, Header, Static, Input
+from textual.containers import Horizontal, VerticalScroll
 
-def appFunc():
-    class AppClass(App):
+class TestApp(App):
+    CSS_PATH= "app.tcss"
 
-        def compose(self) -> ComposeResult:
-
-            yield Header()
-            yield Footer()
-
-    if __name__ == "__appRoot__":
-        app = AppClass()
-        app.run
+    def compose(self) -> ComposeResult:
+        """Create child widgets for the app."""
+        yield Header()
+        yield VerticalScroll(
+            Static("Welcome To The Debatebot App! Scroll To Interact", classes="header"),
+            Horizontal(
+                Horizontal(
+                    Input(placeholder="An integer", type="integer")
+                ),
+                Horizontal(
+                    Input(placeholder="An integer", type="integer")
+                ),    
+                classes="mainGrid",
+            ),
+        )
+        yield Footer()
+ 
