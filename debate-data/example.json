@@ -39,7 +39,7 @@
                 ]
             },
             "roundTwo": {
-                "instructions": "Each debater will answer questions from an external persona about there opinions",
+                "instructions": "Each debater will answer questions from the judges about there opinions",
                 "content": []
             },
             "roundThree":{
@@ -47,7 +47,247 @@
                 "content": []
             },
             "roundFour":{
-                "instructions": "Each debater will answer the others questions"
+                "instructions": "Each debater will answer the others questions",
+                "content": []
+            }
+        },
+
+        "setTwo": {
+            "one": false,
+            "two": true,
+
+            "roundOne": {
+                "instructions": "Each debater will present a multi paragraph argument on why they agree or disagree with the topic",
+                "content": [
+                    {
+                        "author": "Debater One",
+                        "innerContent": ""
+                    }, 
+                    {
+                        "author": "Debater Two",
+                        "innerContent": ""
+                    }
+                ]
+            },
+            "roundTwo": {
+                "instructions": "Each debater will present a multi paragraph rebuttal on why they believe the others speech was innacurate or incorrect",
+                "content": [
+                    {
+                        "author": "Debater One",
+                        "innerContent": ""
+                    }, 
+                    {
+                        "author": "Debater Two",
+                        "innerContent": ""
+                    }
+                ]
+            },
+            "roundThree": {
+                "instructions": "Each debater will answer questions from the judges about there opinions",
+                "questions": {
+                    "j1": {
+                        "questions": ["bwebvvwr", "cavqae", "wivbrtie"]
+                    },
+                    "j2": {
+                        "questions": ["bwebvvwr", "cavqae", "wivbrtie"]
+                    },
+                    "j3": {
+                        "questions": ["bwebvvwr", "cavqae", "wivbrtie"]
+                    }
+                },
+                "content": []
+            },
+            "roundFour":{
+                "instructions": "Each debater will have the opportunity to ask questions to the other debater",
+                "content": []
+            },
+            "roundFive":{
+                "instructions": "Each debater will answer the others questions",
+                "content": []
+            }
+        },
+
+        "judging": {
+            
+            "j1": {
+                "roundOne": {
+                    "d1": {
+                        "content": 1,
+                        "delivery": 1,
+                        "orginization": 1,
+                        "persuasiveness": 1,
+                        "accuracy": 1
+                    },
+                    "d2": {
+                        "content": 1,
+                        "delivery": 1,
+                        "orginization": 1,
+                        "persuasiveness": 1,
+                        "accuracy": 1
+                    }
+                },
+                "roundTwo": {
+                    "d1": {
+                        "rebuttal": 1,
+                        "signposting": 1,
+                        "delivery": 1
+                    },
+                    "d2": {
+                        "rebuttal": 1,
+                        "signposting": 1,
+                        "delivery": 1
+                    }
+                },
+                "roundThree": {
+                    "d1": {
+                        "accuracy": 1,
+                        "delivery": 1
+                    },
+                    "d2": {
+                        "accuracy": 1,
+                        "delivery": 1
+                    }
+                },
+                "roundFour": {
+                    "d1": {
+                        "difficulty": 1,
+                        "relevancy": 1
+                    },
+                    "d2": {
+                        "difficulty": 1,
+                        "relevancy": 1
+                    }
+                },
+                "roundFive": {  
+                    "d1": {
+                        "accuracy": 1,
+                        "delivery": 1
+                    },
+                    "d2": {
+                        "accuracy": 1,
+                        "delivery": 1
+                    }
+                }
+            },
+            "j2": {
+                "roundOne": {
+                    "d1": {
+                        "content": 1,
+                        "delivery": 1,
+                        "orginization": 1,
+                        "persuasiveness": 1,
+                        "accuracy": 1
+                    },
+                    "d2": {
+                        "content": 1,
+                        "delivery": 1,
+                        "orginization": 1,
+                        "persuasiveness": 1,
+                        "accuracy": 1
+                    }
+                },
+                "roundTwo": {
+                    "d1": {
+                        "rebuttal": 1,
+                        "signposting": 1,
+                        "delivery": 1
+                    },
+                    "d2": {
+                        "rebuttal": 1,
+                        "signposting": 1,
+                        "delivery": 1
+                    }
+                },
+                "roundThree": {
+                    "d1": {
+                        "accuracy": 1,
+                        "delivery": 1
+                    },
+                    "d2": {
+                        "accuracy": 1,
+                        "delivery": 1
+                    }
+                },
+                "roundFour": {
+                    "d1": {
+                        "difficulty": 1,
+                        "relevancy": 1
+                    },
+                    "d2": {
+                        "difficulty": 1,
+                        "relevancy": 1
+                    }
+                },
+                "roundFive": {  
+                    "d1": {
+                        "accuracy": 1,
+                        "delivery": 1
+                    },
+                    "d2": {
+                        "accuracy": 1,
+                        "delivery": 1
+                    }
+                }
+            },
+            "j3": {
+                "roundOne": {
+                    "d1": {
+                        "content": 1,
+                        "delivery": 1,
+                        "orginization": 1,
+                        "persuasiveness": 1,
+                        "accuracy": 1
+                    },
+                    "d2": {
+                        "content": 1,
+                        "delivery": 1,
+                        "orginization": 1,
+                        "persuasiveness": 1,
+                        "accuracy": 1
+                    }
+                },
+                "roundTwo": {
+                    "d1": {
+                        "rebuttal": 1,
+                        "signposting": 1,
+                        "delivery": 1
+                    },
+                    "d2": {
+                        "rebuttal": 1,
+                        "signposting": 1,
+                        "delivery": 1
+                    }
+                },
+                "roundThree": {
+                    "d1": {
+                        "accuracy": 1,
+                        "delivery": 1
+                    },
+                    "d2": {
+                        "accuracy": 1,
+                        "delivery": 1
+                    }
+                },
+                "roundFour": {
+                    "d1": {
+                        "difficulty": 1,
+                        "relevancy": 1
+                    },
+                    "d2": {
+                        "difficulty": 1,
+                        "relevancy": 1
+                    }
+                },
+                "roundFive": {  
+                    "d1": {
+                        "accuracy": 1,
+                        "delivery": 1
+                    },
+                    "d2": {
+                        "accuracy": 1,
+                        "delivery": 1
+                    }
+                }
             }
         }
     }

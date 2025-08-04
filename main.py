@@ -1,5 +1,5 @@
-from app.appRoot import TestApp
+from agents.debate import debate
 
-if __name__ == "__main__":
-    app = TestApp()
-    app.run()
+results = debate()
+print(results)
+

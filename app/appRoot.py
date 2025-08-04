@@ -11,12 +11,10 @@ class TestApp(App):
         yield VerticalScroll(
             Static("Welcome To The Debatebot App! Scroll To Interact", classes="header"),
             Horizontal(
-                Horizontal(
-                    Input(placeholder="An integer", type="integer")
-                ),
-                Horizontal(
-                    Input(placeholder="An integer", type="integer")
-                ),    
+                Input(placeholder="An integer", type="integer")
+                ,
+                Input(placeholder="An integer", type="integer")
+                ,    
                 classes="mainGrid",
             ),
         )
