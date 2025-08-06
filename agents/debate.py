@@ -30,8 +30,11 @@ debater2 = create_react_agent(
 
 def debate():
     
-    round_one_result = speech_one(model, debater1, True)
-    round_two_result = speech_two(model,debater2, False)
+    speech_one_one_result = speech_one(debater1, True)
+    speech_one_two_result = speech_two(debater2, False)
 
-    return round_one_result, round_two_result
+    speech_one_one_result = "debater1"+speech_one_one_result
+    speech_one_two_result = "debater2"+speech_one_two_result
+
+    return speech_one_one_result, speech_one_two_result
 
